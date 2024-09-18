@@ -1,4 +1,8 @@
-# MrK
-_______________________
-pkg update
+
+______________________
+#MrK
+        pkg update
+        clear
+        pkg upgrade 
+        clear
 _______________________
