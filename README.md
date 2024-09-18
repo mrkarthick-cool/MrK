@@ -1,1 +1,3 @@
 # MrK
+
+'pkg update'
