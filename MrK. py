@@ -1,0 +1,23 @@
+from termcolor import colored
+import webbrowser
+import pyfiglet
+import time
+import os
+
+url = "https://jokercehv11.blogspot.com/2024/09/i-love-you.html?m=1"
+
+
+
+os.system(f"termux-open-url {url}")
+time.sleep(5)
+
+text = "I LOVE YOU"
+big_text = pyfiglet.figlet_format(text, font="standard")
+
+
+while True:
+    colored_text = colored(big_text, "green", attrs=["bold"])
+
+    print(colored_text)
+    time.sleep(1)
+
